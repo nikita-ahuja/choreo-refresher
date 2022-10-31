@@ -13,7 +13,6 @@
 
     <body>
         <p>
-            This is a choreopgraphy library maintained by yours truly. 
             The dropdown below will give you a list of pages to check out.
         </p>
 
@@ -21,12 +20,39 @@
               <label for="pages">Choose a page:</label>
             <select name="list" id="list" accesskey="target">
                 <option value='none' selected>Choose a page</option>
-                <option value="bachata-footwork-1.html">Bachata Footwork 1 (Teams)</option>
-                <option value="salsa-partnerwork-1.html">Salsa Partnerwork 1</option>
-                <option value="theme3.html">Theme 3</option>
+                <option value="bachata-footwork-1.html">Bachata Teams (Individual)</option>
+                <option value="salsa-partnerwork-1.html">Salsa 1 (Partnerwork)</option>
+                <option value="zouk-esquina-tango.html">Zouk 1 (Partnerwork)</option>
             </select>
             <input type=button value="Go" onclick="goToNewPage()" />
             </form>
+
+            <p>
+                Or, you can fill out the form to get recommendations
+
+                <h1>What dances would you like to see or learn?</h1>
+
+                <form id="selection-form" action="">
+                <input type="checkbox" id="sensual" name="bachata-sensual" value="bachata-sensual">
+                <label for="sensual">Bachata Sensual</label><br>
+                
+                <input type="checkbox" id="tradicional" name="bachata-trad" value="bachata-tradicional">
+                <label for="tradicional">Bachata Tradicional</label><br>
+                
+                <input type="checkbox" id="on1" name="salsa-on1" value="salsa-on1">
+                <label for="on1">Salsa On1</label><br>
+
+                <input type="checkbox" id="on2" name="salsa-on2" value="salsa-on2">
+                <label for="on2">Salsa On2</label><br>
+
+                <input type="checkbox" id="zouk" name="zouk" value="zouk">
+                <label for="zouk">Zouk</label><br><br>
+
+
+                <input type="submit" value="Submit">
+                </form>
+
+            </p>
     </body>
 
 </div>
