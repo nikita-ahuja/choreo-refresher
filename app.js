@@ -6,20 +6,17 @@ function goToNewPage()
             }
         }
 
-        var settings = {
-            'cache': false,
-            'dataType': "jsonp",
-            "async": true,
-            "crossDomain": true,
-            "url": "https://maps.googleapis.com/maps/api/distancematrix/json?units=metric&origins=place_id:"+me.originPlaceId+"&destinations=place_id:"+me.destinationPlaceId+"&region=ng&units=metric&key=mykey",
-            "method": "GET",
-            "headers": {
-                "accept": "application/json",
-                "Access-Control-Allow-Origin":"*"
-            }
-        }
-  
-        $.ajax(settings).done(function (response) {
-            console.log(response);
-  
-        });
+
+var html = '<ul>\
+        <li>\
+          <a href="#">Home</a>\
+        </li>\
+        <li>\
+          <a href="#">Bachata</a>\
+        </li>\
+        <li>\
+          <a href="#">Zouk</a>\
+        </li>\
+      </ul>';
+
+document.getElementById('nav').innerHTML = html;
