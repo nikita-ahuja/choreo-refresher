@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
 </head>
 
     <header>
@@ -12,52 +12,13 @@
 <div>
 
     <body>
-        <p>
-            The dropdown below will give you a list of pages to check out.
-        </p>
 
-        <form>
-              <label for="pages">Choose a page:</label>
-            <select name="list" id="list" accesskey="target">
-                <option value='none' selected>Choose a page</option>
-                <option value="bachata-footwork-1.html">Bachata Teams (Individual)</option>
-                <option value="salsa-partnerwork-1.html">Salsa 1 (Partnerwork)</option>
-                <option value="zouk-esquina-tango.html">Zouk 1 (Partnerwork)</option>
-            </select>
-            <input type=button value="Go" onclick="goToNewPage()" />
-            </form>
+               <li><a href="Salsa.html">Salsa</a></li> 
+               <li><a href="Bachata.html">Bachata</a></li>
+               <li><a href="Zouk.html">Zouk</a></li>
 
-            <p>
-                Or, you can fill out the form to get recommendations
-
-                <h1>What dances would you like to see or learn?</h1>
-
-               <ul>
-               <li>Salsa</li> 
-               <li>Bachata</li>
-               <li>Zouk</li>
                </ul>
-                
-
-                <form id="selection-form" action="">
-                <input type="checkbox" id="sensual" name="bachata-sensual" value="bachata-sensual">
-                <label for="sensual">Bachata Sensual</label><br>
-                
-                <input type="checkbox" id="tradicional" name="bachata-trad" value="bachata-tradicional">
-                <label for="tradicional">Bachata Tradicional</label><br>
-                
-                <input type="checkbox" id="on1" name="salsa-on1" value="salsa-on1">
-                <label for="on1">Salsa On1</label><br>
-
-                <input type="checkbox" id="on2" name="salsa-on2" value="salsa-on2">
-                <label for="on2">Salsa On2</label><br>
-
-                <input type="checkbox" id="zouk" name="zouk" value="zouk">
-                <label for="zouk">Zouk</label><br><br>
-
-
-                <input type="submit" value="Submit">
-                </form>
+    
 
             </p>
     </body>

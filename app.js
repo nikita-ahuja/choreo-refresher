@@ -9,13 +9,16 @@ function goToNewPage()
 
 var html = '<ul>\
         <li>\
-          <a href="#">Home</a>\
+          <a href="home.html">Home</a>\
         </li>\
         <li>\
-          <a href="#">Bachata</a>\
+          <a href="bachata.html">Bachata</a>\
         </li>\
         <li>\
-          <a href="#">Zouk</a>\
+        <a href="salsa.html">Salsa</a>\
+      </li>\
+        <li>\
+          <a href="zouk.html">Zouk</a>\
         </li>\
       </ul>';
 
