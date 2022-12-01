@@ -3,7 +3,7 @@ table, th, td {
   }
 
 
-  header.center {
+  header.center, .center {
     text-align: center;
     font-size: 30px;
   }
@@ -11,3 +11,9 @@ table, th, td {
   p.combo-des {
     font-style: italic;
   }
+
+  ul.home {
+  list-style-position: inside;
+  }
+
+  .nav
