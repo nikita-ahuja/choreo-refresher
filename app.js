@@ -20,6 +20,9 @@ var html = '<ul>\
         <li>\
           <a href="zouk.html">Zouk</a>\
         </li>\
+        <li>\
+        <a href="ballet.html">Ballet</a>\
+      </li>\
       </ul>';
 
 document.getElementById('nav').innerHTML = html;
